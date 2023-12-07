@@ -1,2 +1,9 @@
-package com.andersenlab.countriesandcities.dto;public class CityDto {
+package com.andersenlab.countriesandcities.dto;
+
+public record CityDto(
+    Long id,
+    String name,
+    String logoUrl
+) {
+
 }
